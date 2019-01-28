@@ -1,0 +1,92 @@
+{
+  "dogs": [
+  {
+      "image": "assets/images/raw/1.jpeg",
+      "source": "https://source.unsplash.com/ybHtKz5He9Y",
+      "title": "Spencer"
+    },
+    {
+      "image": "assets/images/raw/2.jpeg",
+      "source": "https://source.unsplash.com/0jhte3YdBLI",
+      "title": "Bosco & Daisy"
+    },
+
+    {
+      "image": "assets/images/raw/3.jpeg",
+      "source": "https://source.unsplash.com/ngqyo2AYYnE",
+      "title": "Scout"
+    },
+
+    {
+      "image": "assets/images/raw/4.jpeg",
+      "source": "https://source.unsplash.com/9A64wd1QaAU",
+      "title": "Kirby"
+    },
+
+    {
+      "image": "assets/images/raw/5.jpeg",
+      "source": "https://source.unsplash.com/915UJQaxtrk",
+      "title": "Bailey"
+    },
+
+    {
+      "image": "assets/images/raw/6.jpeg",
+      "source": "https://source.unsplash.com/mx0DEnfYxic",
+      "title": "Tracker"
+    },
+
+    {
+      "image": "assets/images/raw/7.jpeg",
+      "source": "https://source.unsplash.com/OsOQhAzcEKc",
+      "title": "Duke"
+    },
+
+    {
+      "image": "assets/images/raw/8.jpeg",
+      "source": "https://source.unsplash.com/6WneSv56YVI",
+      "title": "Nanuk"
+    },
+
+    {
+      "image": "assets/images/raw/9.jpeg",
+      "source": "https://source.unsplash.com/CdVG9f96kyg",
+      "title": "Chloe"
+    },
+
+    {
+      "image": "assets/images/raw/10.jpeg",
+      "source": "https://source.unsplash.com/K4mSJ7kc0As",
+      "title": "Kimo"
+    },
+
+    {
+      "image": "assets/images/raw/11.jpeg",
+      "source": "https://source.unsplash.com/GvhSUEN-Lm8",
+      "title": "Cinch"
+    },
+
+    {
+      "image": "assets/images/raw/12.jpeg",
+      "source": "https://source.unsplash.com/t2XHKIdc4Kw",
+      "title": "Baxter"
+    },
+
+    {
+      "image": "assets/images/raw/13.jpeg",
+      "source": "https://source.unsplash.com/saRU3vzmgkY",
+      "title": "Lola"
+    },
+
+    {
+      "image": "assets/images/raw/14.jpeg",
+      "source": "https://source.unsplash.com/1z-kI6gIEpg",
+      "title": "Castor & Pollux"
+    },
+
+    {
+      "image": "assets/images/raw/15.jpeg",
+      "source": "https://source.unsplash.com/zHZ2nTnBnAQ",
+      "title": "Poppy"
+    }
+  ]
+}

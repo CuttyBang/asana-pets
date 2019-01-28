@@ -1,3 +1,12 @@
+/* VARIABLES
+------------------------*/
+//fonts from Asana website
+$boldFont: "Gordita-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$textFont: "Gordita-Light", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$textColor: #333;
+//Asnana dark blue
+$headerColor: #2e3c54;
+
 /* Globals */
 :root {
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,21 +29,99 @@ a {
 
 /* Snippets */
 .site-header {
+  font-family: $boldFont;
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
+  color: $headerColor;
+  h1 {
+      font-size: 3.5em;
+  }
 }
 
+
 .site-header__quote {
-  color: var(--color);
-  font-family: var(--font-serif);
+  color: $textColor; //var(--color);
+  font-family: $textFont; //var(--font-serif);
   margin-left: auto;
   margin-right: auto;
   max-width: 460px;
 }
 
 .site-footer {
-  color: var(--color);
+  color: $textColor;//var(--color);
   font-family: var(--font-serif);
   text-align: center;
+  padding-top: 50px;
+}
+
+/* PERSONAL FLEXBOX CLASSES
+------------------------*/
+.flexible {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.flexible-item {
+  padding: 5px;
+  margin-top: 10px; }
+
+.flexible.noWrap {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.flexible-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  flex-wrap: nowrap; }
+
+.flexible-left {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.flexible-right {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.flexible-center {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* FONTFACE
+------------------------*/
+
+@font-face {
+  font-family: 'Gordita-Regular';
+  src: url('../assets/fonts/Gordita-Regular.eot');
+  src: url('../assets/fonts/Gordita-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Gordita-Regular.svg#Gordita-Regular') format('svg'),
+       url('../assets/fonts/Gordita-Regular.ttf') format('truetype'),
+       url('../assets/fonts/Gordita-Regular.woff') format('woff'),
+       url('../assets/fonts/Gordita-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gordita-Light';
+  src: url('../assets/fonts/Gordita-Light.eot');
+  src: url('../assets/fonts/Gordita-Light.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/Gordita-Light.svg#Gordita-Light') format('svg'),
+       url('../assets/fonts/Gordita-Light.ttf') format('truetype'),
+       url('../assets/fonts/Gordita-Light.woff') format('woff'),
+       url('../assets/fonts/Gordita-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
