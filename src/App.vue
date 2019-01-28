@@ -41,7 +41,7 @@ export default {
   },
   data() {
     return {
-      doggos: data.dogs //create reference of json
+      doggos: data.dogs //create reference of json data
     }
   }
 }

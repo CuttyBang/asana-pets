@@ -1,5 +1,11 @@
 # Asana WebDev Take-Home Exercise
 
+
+##SEE BELOW
+
+
+
+
 ## Instructions
 
 Let's pretend that Asana is actually a pet adoption agency. (Our SF office is so dog-friendly that it's not too far a stretch!) We need a web page that contains an image gallery of the pets we have available for adoption. We'd like you to build it.
@@ -31,3 +37,8 @@ We'll be grading on five areas:
 "Starting next month, we'll be partnering with a shelter that has 2000 pets available for adoption. We need this page to be able to handle that many listings."
 
 "Most people find out about us from internet searches. We need this page to appear towards the top of search results."
+
+-----------------
+
+##Rather than 'webpacking' the project, I chose to leave it in it's 'dev' state so all the code is readable.
+##To view the gallery, just run 'npm run dev' in the terminal.
